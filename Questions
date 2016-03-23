@@ -1,0 +1,13 @@
+# Enter file contents here
+
+Class Question:
+	
+	qcount = 0
+	
+	def _init_(self, question, answer):
+		self.question = question
+		self.answer = answer
+		Question.qcount += 1
+		
+	def DisplayQcount(self): 
+		print "There are %d questions!" % Question.qcount
