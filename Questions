@@ -11,3 +11,9 @@ Class Question:
 		
 	def DisplayQcount(self): 
 		print "There are %d questions!" % Question.qcount
+		
+	def Correct:
+		if question == answer
+			return True
+			print "Great Job!"
+			q
