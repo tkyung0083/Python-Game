@@ -1,5 +1,8 @@
 # Enter file contents here
 
+q_list = []
+a_list = []
+
 Class Question:
 	
 	qcount = 0
